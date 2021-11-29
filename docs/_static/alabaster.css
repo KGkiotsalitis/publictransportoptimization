@@ -55,7 +55,7 @@
 /* -- page layout ----------------------------------------------------------- */
 
 body {
-    font-family: 'goudy old style', 'minion pro', 'bell mt', Georgia, 'Hiragino Mincho Pro', serif;
+    font-family: Georgia, serif;
     font-size: 17px;
     background-color: #fff;
     color: #000;
@@ -159,7 +159,7 @@ div.sphinxsidebarwrapper p.blurb {
 
 div.sphinxsidebar h3,
 div.sphinxsidebar h4 {
-    font-family: 'Garamond', 'Georgia', serif;
+    font-family: Georgia, serif;
     color: #444;
     font-size: 24px;
     font-weight: normal;
@@ -203,7 +203,7 @@ div.sphinxsidebar ul li.toctree-l2 > a {
 
 div.sphinxsidebar input {
     border: 1px solid #CCC;
-    font-family: 'goudy old style', 'minion pro', 'bell mt', Georgia, 'Hiragino Mincho Pro', serif;
+    font-family: Georgia, serif;
     font-size: 1em;
 }
 
@@ -236,7 +236,7 @@ div.body h3,
 div.body h4,
 div.body h5,
 div.body h6 {
-    font-family: 'Garamond', 'Georgia', serif;
+    font-family: Georgia, serif;
     font-weight: normal;
     margin: 30px 0px 10px 0px;
     padding: 0;
@@ -250,7 +250,7 @@ div.body h5 { font-size: 100%; }
 div.body h6 { font-size: 100%; }
 
 a.headerlink {
-    color: #DDD;
+    color: #004B6B;
     padding: 0 4px;
     text-decoration: none;
 }
@@ -277,7 +277,7 @@ div.admonition tt.xref, div.admonition code.xref, div.admonition a tt {
 }
 
 div.admonition p.admonition-title {
-    font-family: 'Garamond', 'Georgia', serif;
+    font-family: Georgia, serif;
     font-weight: normal;
     font-size: 24px;
     margin: 0 0 10px 0;
@@ -610,7 +610,7 @@ a:hover tt, a:hover code {
         display: block;
         float: none;
         width: 102.5%;
-        margin: 50px -30px -20px -30px;
+        margin: -20px -30px 20px -30px;
         padding: 10px 20px;
         background: #333;
         color: #FFF;
@@ -665,6 +665,12 @@ a:hover tt, a:hover code {
 
     .github {
         display: none;
+    }
+}
+@media screen and (min-width: 876px) {
+    div.sphinxsidebar {
+        position: fixed;
+        margin-left: 0;
     }
 }
 
