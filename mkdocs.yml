@@ -1,0 +1,30 @@
+site_name: Public Transport Optimization
+
+theme:
+  name: material
+
+copyright: Copyright &copy; 2021 - 2022 Dr. Konstantinos Gkiotsalitis
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/kgkiotsalitis
+
+plugins:
+  - search
+  - mkdocstrings
+
+nav:
+    - Home: index.md
+    - Chapter 1: 
+      - Exercise 1: Chapter 1/exercise 1.md
+    - Chapter 3: 
+      - 3.3.1. Bisection method: chapter3\3_3_1_Bisection Method.md
+      - 3.3.1. Newton-Raphson method: chapter3\3_3_1_Newton Raphson Method.md
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
